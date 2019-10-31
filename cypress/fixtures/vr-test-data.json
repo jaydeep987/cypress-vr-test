@@ -1,0 +1,29 @@
+{
+  "src/app/ui-components/ui-text/__test/index.vr-spec.ts": {
+    "testPath": "src/app/ui-components/ui-text/__test",
+    "componentPath": "src/app/ui-components/ui-text",
+    "componentName": "ui-text",
+    "data": [
+      "with-placeholder",
+      "with-value"
+    ]
+  },
+  "src/app/ui-components/ui-loading/__test/index.vr-spec.ts": {
+    "testPath": "src/app/ui-components/ui-loading/__test",
+    "componentPath": "src/app/ui-components/ui-loading",
+    "componentName": "ui-loading",
+    "data": [
+      "type-css-ring",
+      "type-spinner-gif"
+    ]
+  },
+  "src/app/ui-components/ui-button/__test/index.vr-spec.ts": {
+    "testPath": "src/app/ui-components/ui-button/__test",
+    "componentPath": "src/app/ui-components/ui-button",
+    "componentName": "ui-button",
+    "data": [
+      "with-primary",
+      "with-secondary"
+    ]
+  }
+}

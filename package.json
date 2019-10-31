@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "storybook": "./node_modules/.bin/start-storybook -p 9001 -c .storybook",
+    "vr-test": "./.npm-scripts/vr-test.sh"
   },
   "private": true,
   "dependencies": {
@@ -28,10 +30,23 @@
     "@angular/cli": "~8.3.3",
     "@angular/compiler-cli": "~8.2.4",
     "@angular/language-service": "~8.2.4",
-    "@types/node": "~8.9.4",
+    "@babel/core": "^7.6.4",
+    "@cypress/webpack-preprocessor": "^4.1.0",
+    "@storybook/addon-actions": "^5.2.4",
+    "@storybook/addon-knobs": "^5.2.4",
+    "@storybook/addon-options": "^5.2.4",
+    "@storybook/angular": "^5.2.4",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "@types/shelljs": "^0.8.5",
+    "@types/webpack-env": "^1.14.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-macros": "^2.6.1",
+    "babel-plugin-require-context-hook": "^1.0.0",
     "codelyzer": "^5.0.0",
+    "cypress": "^3.4.1",
+    "cypress-image-snapshot": "^3.1.1",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
@@ -40,8 +55,13 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
     "protractor": "~5.4.0",
-    "ts-node": "~7.0.0",
+    "require-context.macro": "^1.2.2",
+    "shelljs": "^0.8.3",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^7.0.1",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "^3.5.3",
+    "webpack": "^4.41.2",
+    "webpack-merge": "^4.2.2"
   }
 }

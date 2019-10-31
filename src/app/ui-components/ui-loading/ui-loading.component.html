@@ -1,0 +1,10 @@
+<div class="loader">
+  <img
+    *ngIf="loaderType === 'spinner-gif'"
+    src="/assets/spinner.gif"
+    class="spinner-gif"
+  />
+  <div *ngIf="loaderType === 'css-ring'" class="ring">
+    <div></div><div></div><div></div><div></div>
+  </div>
+</div>
