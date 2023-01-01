@@ -26,7 +26,7 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.3",
+    "@angular-devkit/build-angular": "~15.0.4",
     "@angular/cli": "~8.3.3",
     "@angular/compiler-cli": "~8.2.4",
     "@angular/language-service": "~8.2.4",
@@ -35,13 +35,13 @@
     "@storybook/addon-actions": "^5.2.4",
     "@storybook/addon-knobs": "^5.2.4",
     "@storybook/addon-options": "^5.2.4",
-    "@storybook/angular": "^5.2.4",
+    "@storybook/angular": "^6.5.15",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "@types/shelljs": "^0.8.5",
     "@types/webpack-env": "^1.14.1",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.3.0",
     "babel-plugin-macros": "^2.6.1",
     "babel-plugin-require-context-hook": "^1.0.0",
     "codelyzer": "^5.0.0",
@@ -57,11 +57,11 @@
     "protractor": "~5.4.0",
     "require-context.macro": "^1.2.2",
     "shelljs": "^0.8.3",
-    "ts-loader": "^6.2.1",
+    "ts-loader": "^9.4.2",
     "ts-node": "^7.0.1",
     "tslint": "~5.15.0",
     "typescript": "^3.5.3",
-    "webpack": "^4.41.2",
+    "webpack": "^5.75.0",
     "webpack-merge": "^4.2.2"
   }
 }
